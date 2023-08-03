@@ -8,6 +8,8 @@ import Java_img from "./assets/java.png"
 
 function App() {
 
+  // ! variable definition
+
   // const myAbout = "Hi! I am Kerem. I am a Full Stack Web Developer. I know advenced java"
   // const myAge = 16
 
@@ -20,6 +22,9 @@ function App() {
         <h5>and</h5>
         <p>I am {myAge} years old</p>
       </div> */}
+
+
+      {/* Components */}
 
       <Course
         image={Angular_img}

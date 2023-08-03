@@ -1,8 +1,12 @@
 /* eslint-disable react/prop-types */
-// "rafc" yazıp enter -- veya -- "ffc" yazıp enter
+// "rafc"  enter -- or -- "ffc"  enter
 
 
 function Course({ image, title, description }) {
+
+
+    // ! props definition
+
 
     // const { title, description } = props
 
