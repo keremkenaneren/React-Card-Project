@@ -1,8 +1,6 @@
 # React-Card-Project
 
-------------------------------------------------------
-
-###Content
+### Content
 * React.js 18
 * make a card with bulma.css
 * props
