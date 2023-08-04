@@ -3,7 +3,7 @@
 ### Content
 * React.js 18
 * make a card with bulma.css
-* props
+* Usage props
 * basic react learn
 * components logic
 
