@@ -63,7 +63,7 @@ function App() {
             <div className="column">
               <Course
                 image={NextJs_img}
-                title="Java"
+                title="Next.js"
                 description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi quaerat tenetur amet porro maiores neque aliquid dolorum reiciendis dolor nihil ratione dolore ipsa optio nemo voluptas perspiciatis saepe, placeat dignissimos."
               />
             </div>
