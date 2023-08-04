@@ -1,9 +1,10 @@
+import "bulma/css/bulma.css";
 import './App.css'
 import Course from './course';
 import Angular_img from "./assets/angular-image.png"
 import React_img from "./assets/react-image.png"
 import Vue_img from "./assets/vue-image.png"
-import Java_img from "./assets/java.png"
+import NextJs_img from "./assets/next.js.png"
 
 
 function App() {
@@ -26,26 +27,58 @@ function App() {
 
       {/* Components */}
 
-      <Course
-        image={Angular_img}
-        title="Angular"
-        description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi quaerat tenetur amet porro maiores neque aliquid dolorum reiciendis dolor nihil ratione dolore ipsa optio nemo voluptas perspiciatis saepe, placeat dignissimos."
-      />
-      <Course
-        image={Vue_img}
-        title="Vue"
-        description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi quaerat tenetur amet porro maiores neque aliquid dolorum reiciendis dolor nihil ratione dolore ipsa optio nemo voluptas perspiciatis saepe, placeat dignissimos."
-      />
-      <Course
-        image={React_img}
-        title="React"
-        description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi quaerat tenetur amet porro maiores neque aliquid dolorum reiciendis dolor nihil ratione dolore ipsa optio nemo voluptas perspiciatis saepe, placeat dignissimos."
-      />
-      <Course
-        image={Java_img}
-        title="Java"
-        description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi quaerat tenetur amet porro maiores neque aliquid dolorum reiciendis dolor nihil ratione dolore ipsa optio nemo voluptas perspiciatis saepe, placeat dignissimos."
-      />
+      <div className="hero is-warning">
+        <div className="hero-body">
+          <p className="title">
+            Kerem Kenan Eren With ReactJs</p>
+        </div>
+      </div >
+
+
+      <section className="section">
+
+        <div className="container">
+          <div className="columns">
+            <div className="column">
+              <Course
+                image={Angular_img}
+                title="Angular"
+                description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi quaerat tenetur amet porro maiores neque aliquid dolorum reiciendis dolor nihil ratione dolore ipsa optio nemo voluptas perspiciatis saepe, placeat dignissimos."
+              />
+            </div>
+            <div className="column">
+              <Course
+                image={Vue_img}
+                title="Vue"
+                description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi quaerat tenetur amet porro maiores neque aliquid dolorum reiciendis dolor nihil ratione dolore ipsa optio nemo voluptas perspiciatis saepe, placeat dignissimos."
+              />
+            </div>
+            <div className="column">
+              <Course
+                image={React_img}
+                title="React"
+                description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi quaerat tenetur amet porro maiores neque aliquid dolorum reiciendis dolor nihil ratione dolore ipsa optio nemo voluptas perspiciatis saepe, placeat dignissimos."
+              />
+            </div>
+            <div className="column">
+              <Course
+                image={NextJs_img}
+                title="Java"
+                description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi quaerat tenetur amet porro maiores neque aliquid dolorum reiciendis dolor nihil ratione dolore ipsa optio nemo voluptas perspiciatis saepe, placeat dignissimos."
+              />
+            </div>
+          </div>
+
+        </div>
+
+      </section>
+
+
+
+
+
+
+
     </>
 
   );
